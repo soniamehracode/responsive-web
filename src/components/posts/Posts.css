@@ -1,0 +1,106 @@
+.cards_container {
+  display: flex;
+  flex: 1;
+}
+.section_posts {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.mango_card {
+  background-image: url("https://werstupid.netlify.app/images/background_poster_mango.jpg");
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  width: 16rem;
+  height: 18.75rem;
+  margin-right: 1rem;
+  position: relative;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.mango_card img {
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 3rem;
+  max-width: 100%;
+  height: auto;
+}
+.carosal_btn {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  bottom: 2rem;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 2.75rem;
+  padding-right: 2.75rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-width: 9.375rem;
+  color: rgba(255, 255, 255);
+  background: #4f5be8;
+  border-radius: 1rem;
+  border: none;
+}
+.button span {
+  text-transform: capitalize;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+.flexbox_container {
+  flex: 2;
+  width: 30%;
+}
+.items {
+  width: 100%;
+  padding: 15px;
+  background-color: #fff;
+}
+
+.items-img img {
+  width: 100%;
+  object-fit: cover;
+  height: 9rem;
+  max-width: 100%;
+}
+.post_heading h1 {
+  color: #000;
+  font-size: 22px;
+  font-weight: 600;
+}
+.post_heading span {
+  color: #ccc;
+  font-size: 15px;
+}
+.cardButton span {
+  color: #4f5be8;
+  font-weight: 700;
+}
+.post-tag {
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 2rem;
+}
+.post_container {
+  display: flex;
+}
+.post-tag p {
+  color: #ccc;
+}
+@media screen and (max-width: 850px) {
+  .post-tag {
+    display: flex;
+    margin-left: 20px;
+  }
+  .cards_container {
+    display: flex;
+  }
+}

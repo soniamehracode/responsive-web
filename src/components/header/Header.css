@@ -1,0 +1,50 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 70vh;
+}
+
+.header-container {
+  background-image: url("https://cdn.pixabay.com/photo/2021/04/19/12/54/sunset-6191334_1280.jpg");
+  background-repeat: no-repeat;
+  height: 60vh;
+  background-size: cover;
+}
+.content {
+  margin: 60px;
+  color: #fff;
+}
+.content span {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.content h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+}
+.content p {
+  text-transform: capitalize;
+  text-align: justify;
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.content a {
+  color: #fff;
+  line-height: 5rem;
+  border: 2px solid #fff;
+  padding: 10px 50px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+@media screen and (max-width: 850px) {
+  .content {
+    display: block;
+  }
+}
